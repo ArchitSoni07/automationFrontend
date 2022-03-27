@@ -11,5 +11,6 @@
 .Body {
   position: absolute;
   top: 20px;
+  height: 80vh;
   background-color: rgb(255, 255, 255);
 }

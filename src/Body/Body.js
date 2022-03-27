@@ -36,10 +36,19 @@ function Body() {
         </Select>
       </FormControl>
     </Box>
-        <h3>Trending Topics : {trendingTopic}</h3>   
-    <h3>Popular Data Stacks : </h3>
+    <ul id='list'>
+        <li><h3>Trending Topics : {trendingTopic}</h3></li>
+        
+    <li>
+    <h3>Popular Data Stacks : </h3>    
+    </li>
+    <li>
     <h3>Popular Data Companies : </h3>
+    </li>
+    <li>
     <h3>Popular Data Category : </h3>
+    </li>
+    </ul>
     </div>
     </div>
   )
