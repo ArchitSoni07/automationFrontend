@@ -26,3 +26,17 @@
 #list {
   list-style: none;
 }
+
+@media screen and (max-width: 420px) {
+  #list {
+    position: relative;
+    margin-left: -180px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  #list {
+    position: relative;
+    margin-left: -100px;
+  }
+}
