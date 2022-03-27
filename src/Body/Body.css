@@ -1,14 +1,13 @@
 .main {
-  width: 75vw;
-  height: 100wh;
+  width: 100vw;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 #dashboard {
+  position: relative;
   margin-left: 2vw;
-  margin-top: 4vw;
   padding-top: 10px;
 }
 
